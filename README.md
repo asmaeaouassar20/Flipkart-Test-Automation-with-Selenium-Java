@@ -10,3 +10,11 @@ Link : <a href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selen
 
 **Selenium Manager** : est un outil intégré à Selenium 4.6+ qui télécharge et configure automatiquement le bon pilote de navigateur (ChromeDriver, GeckoDriver, etc.).
  ==> Plus besoin de télécharger les drivers manuellement.
+
+# WebDriverManager
+**WebDriverManager** sert à télécharger, installer et configurer automatiquement le pilote (driver) du navigateur (par exemple ChromeDriver pour Chrome).  
+Lien :<a href="https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager/6.1.0" >WebDriverManager</a>  
+
+Sans WebDriverManager :  
+- vous devez télécharger le driver manuellement.  
+- indiquer son chemin dans votre code.
