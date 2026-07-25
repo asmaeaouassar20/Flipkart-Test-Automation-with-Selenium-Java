@@ -48,3 +48,7 @@ Pour que votre IDE comprenne l'extension .feature, vous devez installer et confi
 **BDD** signifie Behavior Driven Development (Développement piloté par le comportement).  
 
 C'est une méthode de développement où l'on décrit les fonctionnalités d'une application du point de vue de l'utilisateur avant d'écrire le code.
+
+# JUnit and Cucumber dependencies
+- <a href="https://mvnrepository.com/artifact/junit/junit/4.13.2" >JUnit 4</a>
+- <a href="https://mvnrepository.com/artifact/io.cucumber/cucumber-junit/7.34.4" >Cucumber for JUnit</a>
