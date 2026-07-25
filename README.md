@@ -1,3 +1,6 @@
+# flipkart
+link : <a href="https://www.flipkart.com/" >flipkart</a>
+
 #  Selenium Java Dependency
 Add selenium Java Dependency in pom.xml.  
 Link : <a href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.43.0"> Selenium Java Dependency</a>  
@@ -18,3 +21,6 @@ Lien :<a href="https://mvnrepository.com/artifact/io.github.bonigarcia/webdriver
 Sans WebDriverManager :  
 - vous devez télécharger le driver manuellement.  
 - indiquer son chemin dans votre code.
+
+# Flipkart End to End Selenium Java Automation Project
+Automatiser un scénario utilisateur réel et complet sur "Flipkart"
