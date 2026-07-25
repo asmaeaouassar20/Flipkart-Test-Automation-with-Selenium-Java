@@ -35,15 +35,16 @@ relier ces scénarios à du code Selenium qui exécute les actions.
 
 ==> **le fichier .feature décrit le test, et le code Java l'exécute.**
 
-### configurer le support Cucumber/Gherkin. sur intelliJ IDEA
-
-
-### BDD
-**BDD** signifie Behavior Driven Development (Développement piloté par le comportement).
-Pour que votre IDE comprenne l'extension .feature, vous devez installer et configurer le support Cucumber/Gherkin:  
+### Configurer le support Cucumber/Gherkin. sur intelliJ IDEA
+<a href="https://mvnrepository.com/artifact/io.cucumber/cucumber-java/7.34.3">Dépendance</a>  
+Pour que votre IDE comprenne l'extension .feature, vous devez installer et configurer le support Cucumber/Gherkin:
 - Allez dans : File > Settings > Plugins
 - Installer Cucumber for Java et Gherkin
 - ![](C:/Users/PC/Desktop/cucumenber.png)
 - Ajouter la dépendance Cucumber dans pom.xml
+
+
+### BDD
+**BDD** signifie Behavior Driven Development (Développement piloté par le comportement).  
 
 C'est une méthode de développement où l'on décrit les fonctionnalités d'une application du point de vue de l'utilisateur avant d'écrire le code.
