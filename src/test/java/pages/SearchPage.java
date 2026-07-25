@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class SearchPage extends Library {
     SeleniumReusable se;
 
@@ -32,6 +34,12 @@ public class SearchPage extends Library {
     @FindBy(xpath = "//html[@class='fonts-loaded']")
     WebElement SearchResult;
 
+    @FindBy(xpath = "//div[@class='col col-7-12']")
+    List<WebElement> elementsResult;
+
+    @FindBy(xpath = "//*[@id='container']/div/div[3]/div[1]/div[2]/div[2]/div/div/div/a/div[2]/div[1]")
+    WebElement oneAndFirstResult;
+
 
     // méthode pour saisir un text
     public void search(String text){
@@ -55,5 +63,12 @@ public class SearchPage extends Library {
         System.out.println("Title of page result : "+driver.getTitle());
     }
 
+    public void printAllElementsResult(){
+        se.getText(elementsResult);
+    }
+
+    public void printOneAndFirstResult(){
+        se.getTextForSpecificValue(oneAndFirstResult);
+    }
 
 }

@@ -45,4 +45,18 @@ public class SearchMobile_TestCase extends Library {
     public void verifySearchResult() {
         // Code to verify results
     }
+
+    @Then("Extract the results and print in console")
+    public void extract_the_Results_and_print_in_console(){
+        System.out.println("------------ Extract the results and print in console  ------------");
+        sp.printAllElementsResult();
+        System.out.println("------------ end  ------------");
+    }
+
+    @Then("Print the Third result and keep it in the console")
+    public void print_the_Third_result_and_keep_it_in_the_console(){
+        System.out.println("------------ Print the Third result and keep it in the console  ------------");
+        sp.printOneAndFirstResult();
+        System.out.println("------------ end  ------------");
+    }
 }

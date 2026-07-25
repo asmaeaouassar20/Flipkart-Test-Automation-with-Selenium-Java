@@ -11,4 +11,6 @@ Scenario: To validate the Search functionality
 Given User enter the Text in the Search field
 When Click the search button
 Then It should navigate to the search result page and display the relevent details
+Then Extract the results and print in console
+Then Print the Third result and keep it in the console
 

@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class SeleniumReusable extends Library {
     public SeleniumReusable(WebDriver driver){
@@ -39,5 +40,21 @@ public class SeleniumReusable extends Library {
         } catch (IOException e) {
             System.out.println("Screenshot not found");
         }
+    }
+
+
+    public void getText(List<WebElement> elementsList){
+        List<WebElement> listOfWebElements= elementsList;
+        System.out.println("Number of web elements in the page is : "+listOfWebElements.size());
+
+        for(WebElement webElement:listOfWebElements){
+            String text = webElement.getText();
+            System.out.println(text);
+        }
+    }
+
+    public void getTextForSpecificValue(WebElement element){
+        String text = element.getText();
+        System.out.println("Extracted text : " + text);
     }
 }
