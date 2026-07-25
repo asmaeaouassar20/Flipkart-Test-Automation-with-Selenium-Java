@@ -24,3 +24,26 @@ Sans WebDriverManager :
 
 # Flipkart End to End Selenium Java Automation Project
 Automatiser un scénario utilisateur réel et complet sur "Flipkart"
+
+# Un fichier .feature
+Un fichier **.feature** sert à décrire les tests en langage naturel (BDD) avec Cucumber.
+
+**Il permet de :**  
+décrire le comportement attendu d'une application ;
+écrire des scénarios compréhensibles par les développeurs, testeurs et clients ;
+relier ces scénarios à du code Selenium qui exécute les actions.  
+
+==> **le fichier .feature décrit le test, et le code Java l'exécute.**
+
+### configurer le support Cucumber/Gherkin. sur intelliJ IDEA
+
+
+### BDD
+**BDD** signifie Behavior Driven Development (Développement piloté par le comportement).
+Pour que votre IDE comprenne l'extension .feature, vous devez installer et configurer le support Cucumber/Gherkin:  
+- Allez dans : File > Settings > Plugins
+- Installer Cucumber for Java et Gherkin
+- ![](C:/Users/PC/Desktop/cucumenber.png)
+- Ajouter la dépendance Cucumber dans pom.xml
+
+C'est une méthode de développement où l'on décrit les fonctionnalités d'une application du point de vue de l'utilisateur avant d'écrire le code.
