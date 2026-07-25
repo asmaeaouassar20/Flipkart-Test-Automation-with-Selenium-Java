@@ -19,7 +19,7 @@ public class Library {
     public void launchapplication() throws IOException {
 
         // ouvrir le fichier de configuration Config.Property
-        FileInputStream input = new FileInputStream("/selenium-automation/src/test/resources/Properties/Config.Property");
+        FileInputStream input = new FileInputStream("src/test/resources/Properties/Config.Property");
 
         properties=new Properties();
         properties.load(input); // chargement du contenu du fichier dans l'objet Properties
