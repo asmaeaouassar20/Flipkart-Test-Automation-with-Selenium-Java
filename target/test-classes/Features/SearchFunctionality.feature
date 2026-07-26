@@ -6,6 +6,7 @@ Given Launch the Flipkart Application
 When Close the popup
 Then It should Navigate to the Home page
 
+@tc001 @Regression
 Scenario: To validate the Search functionality
 
 Given User enter the Text in the Search field
@@ -18,4 +19,12 @@ And Select the Brand
 And Select the Battery Capacity
 Then It should display the Relevant result
 
+@tc002 @Regression
+Scenario: To validate the Fashion Functionality
+
+Given User to move the Fashion link
+When Cursor to move to the Trends link
+And Click On Search bar
+And Search For Flowers Key word
+Then It should display page title
 

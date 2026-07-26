@@ -44,7 +44,7 @@ public class SearchPage extends Library {
     // méthode pour saisir un text
     public void search(String text){
         se = new SeleniumReusable(driver);
-        se.EnterValue(Searchtext,text);
+        se.enterValue(Searchtext,text);
     }
 
 

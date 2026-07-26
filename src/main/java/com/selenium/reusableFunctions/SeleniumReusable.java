@@ -3,6 +3,7 @@ package com.selenium.reusableFunctions;
 import com.selenium.pack1.Library;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
@@ -10,11 +11,12 @@ import java.io.IOException;
 import java.util.List;
 
 public class SeleniumReusable extends Library {
+    Actions act;
     public SeleniumReusable(WebDriver driver){
         this.driver = driver;
     }
 
-    public void EnterValue(WebElement element, String text){
+    public void enterValue(WebElement element, String text){
         element.sendKeys(text);
     }
 
@@ -70,5 +72,13 @@ public class SeleniumReusable extends Library {
         Thread.sleep(2000);
     }
 
+    public void mousehover(WebElement element){
+        act=new Actions(driver);
+        act.moveToElement(element).build().perform();
+    }
+
+    public void movelement(WebElement element){
+        act.moveToElement(element).click().perform();
+    }
 
 }
