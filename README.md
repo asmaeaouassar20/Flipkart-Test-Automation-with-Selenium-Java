@@ -1,3 +1,23 @@
+<hr/>
+
+# Selenium Automation Testing – Flipkart
+
+Projet d'automatisation des tests fonctionnels de **Flipkart** développé avec **Java, Selenium WebDriver, Cucumber (BDD), JUnit** et **Extent Reports**.
+
+Le projet couvre plusieurs scénarios de test, notamment :
+
+* Recherche de produits par mot-clé.
+* Filtrage des résultats.
+* Extraction du titre et du prix d'un produit spécifique.
+* Exécution de scénarios avec **Scenario Outline**.
+* Génération de rapports HTML avec **Extent Reports**.
+* Capture automatique de captures d'écran en cas d'exécution des tests.
+
+Ce projet met en œuvre le **Page Object Model (POM)** afin d'améliorer la maintenabilité, la lisibilité et la réutilisabilité du code de test.
+
+<hr/>
+<br/><br/><br/><br/>
+
 # flipkart
 link : <a href="https://www.flipkart.com/" >flipkart</a>
 
