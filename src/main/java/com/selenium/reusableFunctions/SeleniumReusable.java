@@ -25,7 +25,7 @@ public class SeleniumReusable extends Library {
     }
 
     public void getTitle(){
-        System.out.println(driver.getTitle());
+        System.out.println("Page Title is : "+driver.getTitle());
     }
 
 
