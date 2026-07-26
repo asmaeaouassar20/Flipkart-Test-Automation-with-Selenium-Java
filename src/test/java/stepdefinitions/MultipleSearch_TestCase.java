@@ -25,5 +25,6 @@ public class MultipleSearch_TestCase extends Library {
     public void it_should_navigate_to_the_next_page_and_display_the_corresponding_page() {
         SeleniumReusable se=new SeleniumReusable(driver);
         se.getTitle();
+        se.screenshot("src/test/resources/screenshots/search.png");
     }
 }
