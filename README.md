@@ -57,5 +57,14 @@ C'est une méthode de développement où l'on décrit les fonctionnalités d'une
 <a href="https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter" >extentreports cucumber7 adapter</a>  
 C'est le pont entre Cucumber (qui exécute tes scénarios Gherkin) et ExtentReports (qui génère un joli rapport HTML). Sans elle, Cucumber ne sait pas comment parler à ExtentReports
 
-# Génération de rapport dans target/extent-reports
+### Génération de rapport dans target/extent-reports
 ![img.png](img.png)
+
+# XPath
+
+XPath (XML Path Language) est un langage qui permet de localiser et sélectionner des éléments dans un document XML ou HTML.  
+Exemple :  
+- ``` //h1 ``` → sélectionne tous les titres h1
+- ``` //div[@class='menu'] ``` → sélectionne les div dont la classe est menu.
+
+Il est très utilisé en web scraping, tests automatisés (Selenium) et pour manipuler des fichiers XML.
