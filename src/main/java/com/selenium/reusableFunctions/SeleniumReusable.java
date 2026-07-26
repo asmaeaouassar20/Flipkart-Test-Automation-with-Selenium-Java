@@ -2,10 +2,8 @@ package com.selenium.reusableFunctions;
 
 import com.selenium.pack1.Library;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
@@ -57,4 +55,20 @@ public class SeleniumReusable extends Library {
         String text = element.getText();
         System.out.println("Extracted text : " + text);
     }
+
+    public void selectFromDropdown(WebElement element , String text){
+        Select dropdown = new Select(element);
+        dropdown.selectByValue(text);
+    }
+
+    public void scrolldown(WebElement element){
+        JavascriptExecutor js=(JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click",element);
+    }
+
+    public void waits() throws InterruptedException {
+        Thread.sleep(2000);
+    }
+
+
 }
