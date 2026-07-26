@@ -88,3 +88,9 @@ Exemple :
 - ``` //div[@class='menu'] ``` → sélectionne les div dont la classe est menu.
 
 Il est très utilisé en web scraping, tests automatisés (Selenium) et pour manipuler des fichiers XML.
+
+# Gherkin
+Gherkin est un langage simple utilisé pour écrire des scénarios de test métier (souvent avec l’outil Cucumber).  
+Il permet de décrire le comportement attendu d’une application avec des mots proches du langage naturel
+
+
