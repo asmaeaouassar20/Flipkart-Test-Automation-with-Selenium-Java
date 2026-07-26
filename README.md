@@ -56,3 +56,6 @@ C'est une méthode de développement où l'on décrit les fonctionnalités d'une
 # extentreports cucumber7 adapter
 <a href="https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter" >extentreports cucumber7 adapter</a>  
 C'est le pont entre Cucumber (qui exécute tes scénarios Gherkin) et ExtentReports (qui génère un joli rapport HTML). Sans elle, Cucumber ne sait pas comment parler à ExtentReports
+
+# Génération de rapport dans target/extent-reports
+![img.png](img.png)
