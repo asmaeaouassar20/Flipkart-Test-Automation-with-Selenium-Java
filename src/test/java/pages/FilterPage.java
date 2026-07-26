@@ -27,7 +27,7 @@ public class FilterPage extends Library {
     @FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[1]/div/div[1]/div/section[5]/div[1]")
     WebElement BatterySelectElementArrow;
 
-    @FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[1]/div/div[1]/div/section[5]/div[2]/div/div[2]/div/label/div[1]")
+    @FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[1]/div/div[1]/div/section[5]/div[2]/div/div")
     WebElement caseIntervalBatteryCapacity;
 
 
@@ -51,6 +51,7 @@ public class FilterPage extends Library {
     public void selectBatteryCapacity(){
         se.scrolldown(BatterySelectElementArrow);
         se.click(BatterySelectElementArrow);
+        se.scrolldown(caseIntervalBatteryCapacity);
         se.click(caseIntervalBatteryCapacity);
     }
 }

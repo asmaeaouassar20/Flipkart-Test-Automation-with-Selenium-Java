@@ -33,7 +33,7 @@ public class Filter_TestCase extends Library {
         fp.selectBatteryCapacity();
         se.waits();
     }
-    @Then("Then It should display the Relevant result")
+    @Then("It should display the Relevant result")
     public void shouldDisplayRelevantResult(){
         System.out.println("debug : Results depends on disponible products after and before filter");
         System.out.println("we can verify relevant result by xpath element");
