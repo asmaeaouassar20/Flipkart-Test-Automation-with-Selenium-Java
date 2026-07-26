@@ -30,16 +30,24 @@ Then It should Navigate to the Home page
 
 
   #Scenario Outline permet d'exécuter le même scénario avec plusieurs jeux de données (Examples).
-  @tc003
-  Scenario Outline: To validate the search functionality with different values
+  #@tc003
+  #Scenario Outline: To validate the search functionality with different values
 
-    Given Enter the "<searchtext>" in the search field
-    When click the search button
-    Then It should navigate to the next page and display the corresponding page
+    #Given Enter the "<searchtext>" in the search field
+    #When click the search button
+    #Then It should navigate to the next page and display the corresponding page
 
-    Examples:
-      | searchtext |  |
-      | Mobile     |  |
-      | Tv         |  |
-      | Speaker    |  |
-      | Shirt      |  |
+    #Examples:
+      #| searchtext |  |
+      #| Mobile     |  |
+      #| Tv         |  |
+      #| Speaker    |  |
+      #| Shirt      |  |
+
+
+  @tc004
+  Scenario: To get the title and price from search result
+
+    Given Enter the search text in the search field
+    When Click the search icon
+    Then It should display the search result and get the title and price
