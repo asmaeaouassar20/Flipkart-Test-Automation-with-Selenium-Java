@@ -16,6 +16,21 @@ Le projet couvre plusieurs scénarios de test, notamment :
 Ce projet met en œuvre le **Page Object Model (POM)** afin d'améliorer la maintenabilité, la lisibilité et la réutilisabilité du code de test.
 
 <hr/>
+
+##  Stack Technique
+
+| Catégorie | Technologie / Outil | Description |
+| :--- | :--- | :--- |
+| **Langage** | Java 17+ | Langage principal de développement |
+| **Automatisation UI** | Selenium WebDriver | Contrôle et automatisation du navigateur Web |
+| **Framework BDD** | Cucumber (Gherkin) | Rédaction des scénarios de test en langage naturel |
+| **Framework de Test**| JUnit 4 | Gestion et exécution des assertions et suites de tests |
+| **Architecture** | Page Object Model (POM) | Design pattern pour la séparations des éléments UI et du code de test |
+| **Gestionnaire de Build**| Apache Maven | Gestion des dépendances et de l'intégration |
+| **Reporting** | ExtentReports | Génération des rapports de test HTML interactifs |
+| **Driver Management** | Selenium Manager / WebDriverManager | Gestion automatique des drivers de navigateur (ChromeDriver, etc.) |
+
+
 <br/><br/><br/><br/>
 
 # flipkart
