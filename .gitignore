@@ -1,0 +1,13 @@
+# Fichiers compilés et de build Maven
+target/
+*.class
+
+# Configuration IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Rapports générés localement (optionnel si vous ne voulez pas les commiter)
+test-output/
